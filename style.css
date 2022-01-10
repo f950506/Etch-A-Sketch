@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+}
+
+.header {
+    text-align: center;
+    margin: 10px;
+    width: 640px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1200px;
+    gap: 125px;
+    margin: 0 auto;
+}
+
+.grid {
+    justify-self: center;
+    display: grid;
+    width: 640px;
+    height: 640px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
